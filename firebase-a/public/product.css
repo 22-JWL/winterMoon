@@ -68,10 +68,11 @@
   }
 }
 #mainlogo{
-  height: auto;
-  padding-bottom: 50px;
+  background-position: left top;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  object-fit: cover;
+  background-size: cover;
 }
 .catalog{
   width: 50%;
